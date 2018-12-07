@@ -1,0 +1,96 @@
+
+.list-container li {
+   align-content: center;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   background-color: whitesmoke;
+   height: 100px;
+   color: #535353;
+   list-style-type: none;
+   min-width: 200px;
+   cursor: pointer;
+   border-radius: 8px;
+   font-size: 20px;
+}
+.list-container li:hover{
+  box-shadow: 5px 5px 5px 5px #F2E4E4;
+  color: darkblue; 
+  font-weight: bold;
+}
+.title , .detail-title{
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 30px;
+  font-size: 30px;
+  color:darkblue;
+  font-weight: bold;
+  font-family: 'Poppins',sans-serif;
+}
+.container,.detail-container{
+  padding: 0 20%;
+ 
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+label{
+  font-size: 18px;
+  margin-right: 10px;
+  color: darkblue;
+}
+
+.form{
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  display: block;
+}
+
+.savebtn{
+  width: 48%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 1%;
+}
+
+.canclebtn{
+  width: 48%;
+  background-color: gray;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 1%;
+}
+
+@media only screen and (max-width: 600px) {
+  .title,.detail-title{
+    padding: 10px;
+    font-size: 20px;
+  }
+  .container,.detail-container{
+    padding: 5%;
+  }
+  lable{
+    font-size: 10px;
+  }
+  
+}
+
+
