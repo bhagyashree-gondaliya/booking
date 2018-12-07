@@ -1,6 +1,10 @@
 # Booking
 simple slot booking system in react js
 
+-> Before running 
+
+ npm install
+ 
 -> To run this application follow below steps
 
 1 Download this project and open its location into terminal or CMD.
