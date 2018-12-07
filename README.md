@@ -1,7 +1,7 @@
 # Booking
 simple slot booking system in react js
 
--> Before running 
+-> Before running application add node modules
 
  npm install
  
